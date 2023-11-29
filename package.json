@@ -1,0 +1,25 @@
+{
+  "name": "cinderblock-lang",
+  "displayName": "cinderblock-lang",
+  "description": "Language support for the cinderblock language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "cinderblock",
+      "aliases": ["Cinderblock", "cinderblock"],
+      "extensions": [".cb"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "cinderblock",
+      "scopeName": "",
+      "path": "./syntaxes/cinderblock.tmLanguage.json"
+    }]
+  }
+}
